@@ -32,4 +32,6 @@ public abstract class TwoDShape {
     public double getHeight() {
         return height;
     }
+    
+    abstract public double calcArea();
 }

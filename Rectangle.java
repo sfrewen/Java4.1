@@ -3,7 +3,7 @@ public class Rectangle extends TwoDShape {
         super(w, h);
     }
 
-    public double getArea() {
+    public double calcArea() {
         return getWidth() * getHeight();
     }
 }
